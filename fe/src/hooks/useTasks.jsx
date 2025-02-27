@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/tasks';
+const API_URL = 'https://fullstacktaskmanager.onrender.com/tasks';
 
 export const useTasks = () => {
   const [tasks, setTasks] = useState([]);
